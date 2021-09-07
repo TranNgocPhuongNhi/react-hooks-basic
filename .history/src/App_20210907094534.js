@@ -8,7 +8,7 @@ import PostList from './components/PostList'
 import Pagination from './components/Pagination'
 import PostFilterForm from './components/PostFilterForm'
 import Clock from './components/Clock'
-import MagicColor from './components/MagicColor'
+import Magic from './components/Magic'
 
 function App() {
   const [todoList, setTodoList] = useState([

@@ -8,7 +8,6 @@ import PostList from './components/PostList'
 import Pagination from './components/Pagination'
 import PostFilterForm from './components/PostFilterForm'
 import Clock from './components/Clock'
-import MagicColor from './components/MagicColor'
 
 function App() {
   const [todoList, setTodoList] = useState([
@@ -101,7 +100,7 @@ function App() {
       {/* {showClock && <Clock />}
       <button onClick={() => setShowClock(false)}>Hide clock</button> */}
 
-      <MagicColor />
+      <
 
     </div>
   );
